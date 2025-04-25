@@ -41,14 +41,34 @@
 					<button class="flex-center txt" type="button">НА ТРЕНИРОВКУ</button>
 				</div>
 				<nav class="bottom">
-					<a class="txt" href="">Групповые программы</a>
-					<a class="txt" href="">Тренера</a>
-					<a class="txt" href="">Интерьер</a>
-					<a class="txt" href="">Контакты</a>
+					<a class="txt" href="#programs">Групповые программы</a>
+					<a class="txt" href="#treners">Тренера</a>
+					<a class="txt" href="#room">Интерьер</a>
+					<a class="txt" href="#footer">Контакты</a>
 				</nav>
+			</div>
+			<div class="burger" onclick="burger()">
+				<div></div>
+				<div></div>
+				<div></div>
 			</div>
 		</div>
 	</header>
+	<div class="mobile_nav">
+		<div class="number txt">
+			<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M19.2228 15.2455L15.4696 13.637C15.2736 13.5527 15.0596 13.5187 14.8472 13.5382C14.6347 13.5577 14.4306 13.6301 14.2533 13.7488L12.2465 15.0864C11.0201 14.4899 10.0274 13.5016 9.42548 12.2778L9.42563 12.2777L10.7586 10.2409C10.8746 10.0641 10.945 9.86126 10.9635 9.65057C10.982 9.43989 10.9479 9.22791 10.8644 9.03361L9.25442 5.27721C9.14482 5.02223 8.95559 4.8096 8.71503 4.67117C8.47448 4.53274 8.19556 4.47595 7.92004 4.50931C6.83735 4.64852 5.84237 5.17712 5.12098 5.99637C4.39958 6.81562 4.00111 7.86947 4 8.96107C4 15.3237 9.17632 20.5 15.539 20.5C16.6306 20.4989 17.6844 20.1004 18.5037 19.379C19.3229 18.6576 19.8515 17.6626 19.9907 16.5799C20.024 16.3044 19.9672 16.0255 19.8287 15.7849C19.6903 15.5444 19.4777 15.3552 19.2228 15.2455Z" fill="white"/>
+			</svg>
+			+7 863 272-72-77
+		</div>
+		<button class="flex-center def-button txt" type="button">НА ТРЕНИРОВКУ</button>
+		<nav class="bottom">
+			<a class="txt" href="">Групповые программы</a>
+			<a class="txt" href="">Тренера</a>
+			<a class="txt" href="">Интерьер</a>
+			<a class="txt" href="">Контакты</a>
+		</nav>
+	</div>
 	<main>
 		<div class="slider">
 			<div class="slider_block slider_block_active slider_block-1">
@@ -84,8 +104,8 @@
 			</div>
 			<div class="slider_bg"><img src="img/banners/vectors.png" alt=""></div>
 		</div>
-		<section class="why">
-			<div class="inner">
+		<section class="why" id="why">
+			<div class="inner adpt-wRight">
 				<div class="why_left txt">
 					<div class="heading txt">
 						<div class="heading_top">о клубе</div>
@@ -94,19 +114,19 @@
 					<p>Все групповые программы Level Fitness построенны на профессионализме, неравнодушии и чувстве прекрасного.</p>
 					<p>Главная особенность — осознанные тренировки, основанные    на глубоких знаниях человеческой биомеханики. Наш подход обеспечит не только красоту тела, но и здоровье.</p>
 				</div>
-				<div class="why_right">
-					<img src="img/banners/banner.png" alt="">
+				<div class="why_right adpt_rightBlock">
+					<img class="adpt-topImg" src="img/banners/banner.png" alt="">
 				</div>
 			</div>
 			<div class="why_bg"><img src="img/banners/logo_lvl_fit.png" alt=""></div>
 		</section>
-		<section class="adv">
+		<section class="adv" id="adv">
 			<div class="inner">
 				<div class="heading heading-whiteBG txt">
 					<div class="heading_top">Почему мы</div>
 					<div class="heading_bottom">Наши преимущества</div>
 				</div>
-				<div class="adv_grid">
+				<div class="adv_grid adpt-grid">
 					<div class="adv_block">
 						<div class="adv_block_img"><img src="img/advs/1.png" alt=""></div>
 						<div class="adv_block_info txt">
@@ -134,22 +154,22 @@
 				</div>
 			</div>
 		</section>
-		<section class="programs">
+		<section class="programs" id="programs">
 			<div class="inner">
 				<div class="heading txt">
 					<div class="heading_top">Почему мы</div>
 					<div class="heading_bottom">Наши преимущества</div>
 				</div>
-				<div class="programs_info">
+				<div class="programs_info adpt-wRight">
 					<div class="programs_info_left txt">
 						<p>У нас широкий и сбалансированный выбор тренировок. Разнообразие нагрузок поможет комплексно развить тело и решить любые задачи.</p>
 						<p>В основе всех тренировок — движение в трех плоскостях для наиболее эффективной и безопасной активации тела! Тренируйтесь в мини-группе или приходите  на  индивидуальные занятия.</p>
 					</div>
-					<div class="programs_info_right">
-						<div class="programs_info_img"><img src="img/banners/koleco.png" alt=""></div>
+					<div class="programs_info_right adpt_rightBlock">
+						<div class="programs_info_img"><img class="adpt-topImg" src="img/banners/koleco.png" alt=""></div>
 					</div>
 				</div>
-				<div class="programs_grid txt">
+				<div class="programs_grid adpt-grid txt">
 					<div class="programs_block">
 						<div class="programs_block_img"><img src="img/prod/img (1).png" alt=""></div>
 						<div class="programs_block_title">HIT-тренинг</div>
@@ -204,7 +224,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="reklama">
+		<section class="reklama" id="reklama">
 			<div class="inner txt">
 				<h2>Приходите на первое бесплатное занятие</h2>
 				<p>Первое занятие является бесплатным исключительно для новых посетителей фитнес центра. </p>
@@ -212,13 +232,13 @@
 				<button class="def-button">зарегистрироваться</button>
 			</div>
 		</section>
-		<section class="treners">
+		<section class="treners" id="treners">
 			<div class="inner">
 				<div class="heading txt">
 					<div class="heading_top">лучшие тренеры</div>
 					<div class="heading_bottom">Наш тренерский состав</div>
 				</div>
-				<div class="treners_info">
+				<div class="treners_info adpt-wRight">
 					<div class="treners_info_left">
 						<p class="txt">Мы собрали команду настоящих профессионалов своего дела. 
 							Каждый тренер непрерывно совершенствуется и повышает квалификацию. 
@@ -226,11 +246,11 @@
 							каждое занятие выстраивается по новому сценарию, творчески и с заботой о каждом клиенте.
 						</p>
 					</div>
-					<div class="treners_info_right">
-						<div class="treners_info_img"><img src="img/banners/koleco.png" alt=""></div>
+					<div class="treners_info_right adpt_rightBlock">
+						<div class="treners_info_img"><img class="adpt-topImg" src="img/banners/koleco.png" alt=""></div>
 					</div>
 				</div>
-				<div class="treners_grid txt">
+				<div class="treners_grid adpt-grid txt">
 					<div class="treners_block">
 						<div class="treners_block_img"><img src="img/treners/img (1).png" alt=""></div>
 						<div class="treners_block_name">Иванов Андрей</div>
@@ -264,7 +284,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="go">
+		<section class="go" id="go">
 			<div class="inner">
 				<div class="go_heading">
 					<h3 class="txt">Начни свое преображение</h3>
@@ -279,13 +299,13 @@
 				</form>
 			</div>
 		</section>
-		<section class="room">
+		<section class="room" id="room">
 			<div class="inner">
 				<div class="heading heading-whiteBG txt">
 					<div class="heading_top">приглашаем в гости</div>
 					<div class="heading_bottom">Интерьер в фитнес-центре</div>
 				</div>
-				<div class="room_grid">
+				<div class="room_grid adpt-grid">
 					<div class="room_block">
 						<img src="img/room/01.png" alt="">
 					</div>
@@ -308,7 +328,7 @@
 			</div>
 		</section>
 	</main>
-	<footer class="footer">
+	<footer class="footer" id="footer">
 		<div class="inner">
 			<div class="footer_block">
 				<div class="footer_left txt">
