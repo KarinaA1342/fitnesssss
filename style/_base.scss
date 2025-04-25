@@ -1,0 +1,10 @@
+// -------- colors --------
+$clr-main: #E7490F;
+
+// -------- mixins ----------
+
+@mixin grid($gap, $i) {
+    display: grid;
+    grid-gap: $gap;
+    grid-template-columns: repeat($i, minmax(0px, 1fr));
+}
